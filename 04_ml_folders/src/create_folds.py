@@ -11,14 +11,13 @@ def create_folds():
     # Read mnist_train_csv
     df = pd.read_csv("../input/mnist_train.csv")
 
-
     # create column called kfold
     df["kfold"] = -1
 
-    # shuffle/randomize columns
+    # shuffle/randomize rows
     df = df.sample(frac=1).reset_index(drop=True)
 
-    # create column called kfold
+    # initiate the kfold class from model_selection module
     kf = model_selection.KFold(n_splits=5)
 
     # Create file in /input folder called mnist_train_folds.csv
