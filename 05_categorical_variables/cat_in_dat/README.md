@@ -37,7 +37,7 @@ The -W ignore is to ignore all warnings
 - `lbl_rf.py`: Random Forest with Label Encoder
 - `ohe_svd_rf.py`:  Random Forest with One-Hot Encoder and Singular Value 
 - `lbl_xgb.py`: XGBoost
-- `entity_emebddings.py`: Neural Networks 
+- `entity_embeddings.py`: Neural Networks 
 
 
 ## Results
