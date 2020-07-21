@@ -88,22 +88,3 @@ We must be very careful when using target encoding as it is too prone to overfit
 In this situation an advice is use scikit-learn with target encoding with smoothing.
 
 The AUC values are similar in each fold. The average AUC is 0.9259 .
-
-### Neural Network with Entity Embedding
-
-Here we represent categories by vectors with float values to reduce the matrix dimension as well 
-computer time consumption.
-
-Every category in a column is mapped to an embedding. After that the embeddings will 
-be reshape to their dimension to make them flat. After that concatenate all flattened inputs
-embeddings. The final step is adding a bunch of dense layers, an output layer.
-
-
-
-
-
-
-
-
-
-
