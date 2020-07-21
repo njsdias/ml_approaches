@@ -1,11 +1,11 @@
-#Categorical variables
+# Categorical variables
 
 In this folder there are two datasets:
-- cat_in dat
-- us census
+- cat in dat
+- us adult census
 
-Here, are examples how we model datasets with categorical features. 
+Here, are examples how we can model datasets with categorical features. 
 
-DIfferent techniques and models are applied to achieve the objective.
+Different techniques and models are applied to achieve the objective.
 
-Extra details are in each folder.
+Extra details can be found inside of each folder.
