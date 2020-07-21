@@ -69,8 +69,8 @@ def create_model(data,catcols):
     x = layers.Concatenate()(outputs)
 
     # add a batchnorm layer
-    # from here, everything id up to you
-    # you can different architectures
+    # from here, everything is up to you
+    # you can try different architectures
     # if you have numerical features, you should add
     # them here or in concatenate layer
     x = layers.BatchNormalization()(x)
